@@ -7,7 +7,7 @@
   text-decoration: none;
 }
 nav{
-  background: #0082e6;
+  background: #a8df65;
   height: 80px;
   width: 100%;
 }
@@ -38,7 +38,7 @@ nav ul li a{
   font-family: 'Poppins', sans-serif;
 }
 a.active,a:hover{
-  background: #1b9bff;
+  background: #a8df65;
   transition: .5s;
 }
 .checkbtn{
@@ -93,16 +93,50 @@ a.active,a:hover{
     left: 0;
   }
 }
+
+nav ul .search-icon{
+  height: 40px;
+  width: 240px;
+  display: flex;
+  background: #f2f2f2;
+  border-radius: 5px;
+}
+nav ul .search-icon input{
+  height: 100%;
+  width: 200px;
+  border: none;
+  outline: none;
+  padding: 0 10px;
+  color: #000;
+  font-size: 16px;
+  border-radius: 5px 0 0 5px;
+}
+nav ul .search-icon .icon{
+  height: 100%;
+  width: 40px;
+  line-height: 40px;
+  text-align: center;
+  border: 1px solid #cccccc;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+nav ul .search-icon .icon:hover{
+  background: #e6e6e6;
+}
+nav ul .search-icon .icon span{
+  color: #222222;
+  font-size: 18px;
+}
 section{
-  background: url(bg1.jpg) no-repeat;
+  margin-top: 100px;
+  background-image: url("https://mdn.mozillademos.org/files/6457/mdn_logo_only_color.png") no-repeat;
   background-size: cover;
   height: calc(100vh - 80px);
 }
 
 
-
 .form-signin {
-  margin-top: 200px;
+  margin-top: 300px;
   width: 100%;
   max-width: 330px;
   padding: 15px;
@@ -132,11 +166,18 @@ section{
   border-top-left-radius: 0;
   border-top-right-radius: 0;
 }
+
+
+.text{
+  text-align: center;
+  font-size: 300px;
+  color:#45046a;
+  font-family: "PT Sans Narrow";
+}
 .footer{
   font-size: 30px;
   font-family: "Montserrat-Black";
   color: "white";
   text-align: center;
-  
-  background-color:blue;
+  background-color:#a8df65;
 }
