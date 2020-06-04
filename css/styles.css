@@ -129,10 +129,11 @@ nav ul .search-icon .icon span{
 }
 section{
   margin-top: 100px;
-  background-image: url("images/image1.png") no-repeat;
+  background-image: url("image1.png") no-repeat;
   background-size: cover;
   height: calc(100vh - 80px);
 }
+
 
 /*search box*/
 * {
@@ -141,8 +142,7 @@ section{
 
 /* Style the search field */
 form.example input[type=text] {
-
-  margin-left: 250px;
+  margin-left: 950px;
   margin-top: 20px;
   padding: 10px;
   font-size: 17px;
@@ -175,6 +175,21 @@ form.example::after {
   display: table;
 }
 
+
+
+/*show entries button in history*/
+.entries{
+  font-size: 20px;
+  margin-left: 200px;
+  margin-top: 30px;
+  font-family: "Poppins";
+}
+.entries-button{
+  background: #a8df65;
+}
+.entries-button:hover{
+  background: #0b7dda
+}
 .box-text{
     font-family: "Poppins";
     font-size: 30px;
@@ -183,15 +198,30 @@ form.example::after {
 
 }
 .input-value{
+  box-sizing: border-box;
+  background-color:#a8df65;
+  border-color: #a8df65;
+  margin-left:30px;
   position: relative;
-  border: none;
   padding-top: 20px;
   padding-left:250px;
 
 }
-
-
-
+.cid{
+  margin-left: 66px;
+}
+.cname{
+  margin-left: 5px;
+}
+.cemail{
+  margin-left: 136px;
+}
+.ccontact{
+  margin-left: 107px;
+}
+.caddress{
+  margin-left:130px;
+}
 
 .form-signin {
   margin-top: 300px;
@@ -238,4 +268,31 @@ form.example::after {
   color: "white";
   text-align: center;
   background-color:#a8df65;
+}
+
+
+.h-next-previous {
+  float: right;
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+}
+
+.h-next-previous:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.previous {
+  background-color: #f1f1f1;
+  color: black;
+}
+
+.next {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.round {
+  border-radius: 50%;
 }
