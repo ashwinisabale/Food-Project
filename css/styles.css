@@ -174,8 +174,19 @@ form.example::after {
   clear: both;
   display: table;
 }
-
-
+.reg-text{
+  color: #45046a;
+  font-size: 25px;
+  font-family: "Poppins";
+  text-align: center;
+}
+.pass-text{
+  float: right;
+  font-size: 15px;
+  color: #900c3f;
+  font-family: "Poppins";
+  margin-bottom: 5px;
+}
 
 /*show entries button in history*/
 .entries{
@@ -238,6 +249,7 @@ form.example::after {
 .form-signin .form-control {
   position: relative;
   box-sizing: border-box;
+  background-color:rgba(0, 0, 0, 0);
   height: auto;
   padding: 10px;
   font-size: 16px;
@@ -247,12 +259,14 @@ form.example::after {
 }
 .form-signin input[type="email"] {
   margin-bottom: -1px;
+  background-color:rgba(0, 0, 0, 0);
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
 }
 
 .form-signin input[type="password"] {
   margin-bottom: 10px;
+  background-color:rgba(0, 0, 0, 0);
   border-top-left-radius: 0;
   border-top-right-radius: 0;
 }
@@ -297,4 +311,98 @@ form.example::after {
 
 .round {
   border-radius: 50%;
+}
+
+/*Order Page*/
+
+.vegetables-img{
+  border-radius: 20px;
+  height: 100px;
+  width:100px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.Vegetables-info{
+  margin-left: 20px;
+  font-family: "Poppins";
+}
+
+
+
+.value-button {
+  display: inline-block;
+  border: 1px solid #a8df65;
+  margin: 0px 0px 0px 10px;
+  width: 40px;
+  height: 20px;
+  text-align: center;
+  vertical-align: middle;
+  padding: 11px 0;
+  background: #a8df65;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.value-button:hover {
+  cursor: pointer;
+}
+.add-btn{
+  background: #ffcd3c;
+
+}
+
+ #decrease {
+  margin-right: -4px;
+  border-radius: 8px 0 0 8px;
+}
+
+ #increase {
+  margin-left: -4px;
+  border-radius: 0 8px 8px 0;
+}
+
+ #input-wrap {
+  margin: 0px;
+  padding: 0px;
+}
+
+input#number {
+  text-align: center;
+  border: none;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  margin: 0px;
+  width: 40px;
+  height: 40px;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+
+
+
+
+
+/*Add Product*/
+
+
+.add-product-txt{
+  font-size: 15px;
+  text-align: center;
+  font-family: "Poppins";
+  color: #900c3f;
+
+
+
 }
